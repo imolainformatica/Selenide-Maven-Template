@@ -23,7 +23,7 @@ public class DownloadExampleSelenideIT {
         File file = $("p.footer-dati a").download();
         System.out.println("File is: " +file.getAbsolutePath());
         // Check the title of the page
-        System.out.println("Page title is: " + Selenide.title());                                                                              git
+        System.out.println("Page title is: " + Selenide.title());
 
     }
 
